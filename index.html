@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional FAQ Accordion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background">
+    <div class="faq-container">
+      <div class="faq-header">
+        <h1>FAQs</h1>
+        <p>Find answers to the most frequently asked questions below.</p>
+      </div>
+      <div class="faq-box">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>What is Frontend Mentor, and how will it help me?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It’s suitable for all levels and ideal for portfolio building.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Is Frontend Mentor free?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, Frontend Mentor offers both free and premium challenges.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>Can I use Frontend Mentor projects in my portfolio?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, these projects are ideal for showcasing your skills in your portfolio.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFAQ(this)">
+            <span>How can I get help if I'm stuck on a challenge?</span>
+            <span class="icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>
+              You can ask for help in the Frontend Mentor community or look at the provided solutions for inspiration.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
